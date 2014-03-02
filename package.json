@@ -1,0 +1,16 @@
+{
+	"name": "t-rex",
+	"version": "0.0.1",
+	"description": "Unstoppable T-Rex. express + express-resource + mongoose + resouces abstraction",
+	"main": "index.js",
+	"author": "Darlan Alves <darlan@moovia.com>",
+	"license": "MIT",
+	"dependencies": {
+		"mongoose": "~3.8.7",
+		"mongoose-ready": "0.0.1",
+		"express": "~3.4.8",
+		"express-resource": "~1.0.0",
+		"is": "~0.2.7",
+		"foreach": "~2.0.4"
+	}
+}
