@@ -1,7 +1,7 @@
 {
 	"name": "t-rex",
 	"version": "0.0.1",
-	"description": "Unstoppable T-Rex (express + express-resource + mongoose + resouces abstraction)",
+	"description": "Unstoppable T-Rex (express + mongoose + REST resource abstraction)",
 	"main": "index.js",
 	"author": "Darlan Alves <darlan@moovia.com>",
 	"license": "MIT",
