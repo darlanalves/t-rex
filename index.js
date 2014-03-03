@@ -1,17 +1,28 @@
-var express = require('express'),
-	exresource = require('express-resource'),
-	mongooseReady = require('mongoose-ready'),
+$injector = require('./lib/Injector');
 
-	Resource = require('./lib/Resource'),
-	Application = require('./lib/Application');
+$injector.load([
+	'Registry',
+	'Utils',
+	'Application',
+	'Resource',
+	'Dispatcher'
+]).from(__dirname + '/lib/');
 
-function createServer(options) {
-	return new Application(express(), mongooseReady(), options);
+$injector.load([
+	'Creator',
+	'Destroyer',
+	'Finder',
+	'Loader',
+	'Reader',
+	'Mapper',
+	'Populator',
+	'Writer'
+]).from(__dirname + '/lib/resource/');
+
+// from('./lib/dispatch/').load([''])
+
+require('./lib/Bootstrap');
+
+module.exports = function createServer() {
+	return $injector.get('Application');
 }
-
-module.exports = {
-	createServer: createServer,
-	express: express,
-	exresource: exresource,
-	Resource: Resource
-};
