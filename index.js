@@ -9,7 +9,6 @@ $injector.load([
 ]).from(__dirname + '/lib/');
 
 $injector.load([
-	'Creator',
 	'Destroyer',
 	'Finder',
 	'Loader',
