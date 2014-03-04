@@ -24,4 +24,4 @@ require('./lib/Bootstrap');
 
 module.exports = function createServer() {
 	return $injector.get('Application');
-}
+};
