@@ -5,6 +5,12 @@
 	"main": "index.js",
 	"author": "Darlan Alves <darlan@moovia.com>",
 	"license": "MIT",
+
+	"repository": {
+		"type": "git",
+		"url": "git@github.com:darlanalves/t-rex.git"
+	},
+
 	"dependencies": {
 		"mongoose": "~3.8.7",
 		"mongoose-ready": "0.0.1",
