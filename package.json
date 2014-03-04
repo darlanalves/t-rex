@@ -1,6 +1,6 @@
 {
 	"name": "t-rex",
-	"version": "0.0.1",
+	"version": "0.0.2",
 	"description": "Unstoppable T-Rex (express + mongoose + REST resource abstraction)",
 	"main": "index.js",
 	"author": "Darlan Alves <darlan@moovia.com>",
