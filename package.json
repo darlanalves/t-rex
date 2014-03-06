@@ -3,18 +3,22 @@
 	"version": "0.0.3",
 	"description": "Unstoppable T-Rex (express + mongoose + REST resource abstraction)",
 	"main": "index.js",
-	"author": "Darlan Alves <darlan@moovia.com>",
+	"author": {
+		"name": "Darlan Alves",
+		"email": "darlan@moovia.com"
+	},
 	"license": "MIT",
-
 	"repository": {
 		"type": "git",
 		"url": "git@github.com:darlanalves/t-rex.git"
 	},
-
 	"dependencies": {
 		"mongoose": "~3.8.7",
 		"mongoose-ready": "0.0.1",
 		"is": "~0.2.7",
 		"foreach": "~2.0.4"
+	},
+	"bugs": {
+		"url": "https://github.com/darlanalves/t-rex/issues"
 	}
 }

@@ -18,7 +18,12 @@ $injector.load([
 	'Writer'
 ]).from(__dirname + '/lib/resource/');
 
-// from('./lib/dispatch/').load([''])
+$injector.load([
+	'PreProcessors',
+	'PostProcessors',
+	'Request',
+	'Response'
+]).from(__dirname + '/lib/dispatcher/');
 
 require('./lib/Bootstrap');
 
