@@ -1,6 +1,6 @@
 {
 	"name": "t-rex",
-	"version": "0.0.4",
+	"version": "0.0.5",
 	"description": "Unstoppable T-Rex (express + mongoose + REST resource abstraction)",
 	"main": "index.js",
 	"author": {
