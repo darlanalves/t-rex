@@ -16,7 +16,8 @@
 		"mongoose": "~3.8.7",
 		"mongoose-ready": "0.0.1",
 		"is": "~0.2.7",
-		"foreach": "~2.0.4"
+		"foreach": "~2.0.4",
+		"raw-body": "1.1.3"
 	},
 	"bugs": {
 		"url": "https://github.com/darlanalves/t-rex/issues"
